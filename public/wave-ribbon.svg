@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Gradient 1: Aquamarine to Celadon -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d9173" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#66CDAA" stop-opacity="1" />
+      <stop offset="80%" stop-color="#ACE1AF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8edac1" stop-opacity="0.6" />
+    </linearGradient>
+    
+    <!-- Gradient 2: Emerald to Mint Glow -->
+    <linearGradient id="waveGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#145340" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#48d1cc" stop-opacity="1" />
+      <stop offset="100%" stop-color="#b4f8c8" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <!-- Gradient 3: Celadon Gold Shimmer -->
+    <linearGradient id="waveGrad3" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#66CDAA" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#ACE1AF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Subtle radial background aura -->
+    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#66CDAA" stop-opacity="0.12" />
+      <stop offset="70%" stop-color="#2d9173" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="none" />
+  <circle cx="50%" cy="50%" r="45%" fill="url(#auraGlow)" />
+  
+  <g id="secondary-ribbon">
+    <path d="M -50 224 C 640 556, 1150 88, 1970 492" fill="none" stroke="url(#waveGrad2)" stroke-width="0.60" opacity="0.080" stroke-linecap="round" />
+    <path d="M -50 233.60000000000002 C 638.772517306245 578.4, 1131.8945950691193 107.20000000000002, 1970 504.8" fill="none" stroke="url(#waveGrad2)" stroke-width="0.76" opacity="0.138" stroke-linecap="round" />
+    <path d="M -50 243.2 C 635.1235517530571 600.8, 1114.2830583874847 126.4, 1970 517.6" fill="none" stroke="url(#waveGrad2)" stroke-width="0.92" opacity="0.194" stroke-linecap="round" />
+    <path d="M -50 252.8 C 629.152637608584 623.2, 1097.645786765922 145.6, 1970 530.4" fill="none" stroke="url(#waveGrad2)" stroke-width="1.08" opacity="0.247" stroke-linecap="round" />
+    <path d="M -50 262.4 C 621.0226458456755 645.6, 1082.4366016041365 164.8, 1970 543.2" fill="none" stroke="url(#waveGrad2)" stroke-width="1.21" opacity="0.295" stroke-linecap="round" />
+    <path d="M -50 272 C 610.9553414463167 668, 1069.0703698259556 184, 1970 556" fill="none" stroke="url(#waveGrad2)" stroke-width="1.34" opacity="0.338" stroke-linecap="round" />
+    <path d="M -50 281.6 C 599.2253342310185 690.4, 1057.9116873911219 203.2, 1970 568.8" fill="none" stroke="url(#waveGrad2)" stroke-width="1.44" opacity="0.373" stroke-linecap="round" />
+    <path d="M -50 291.2 C 586.1525882187673 712.8, 1049.2649340679436 222.4, 1970 581.6" fill="none" stroke="url(#waveGrad2)" stroke-width="1.52" opacity="0.401" stroke-linecap="round" />
+    <path d="M -50 300.8 C 572.0936938426719 735.2, 1043.3659707466736 241.6, 1970 594.4" fill="none" stroke="url(#waveGrad2)" stroke-width="1.57" opacity="0.419" stroke-linecap="round" />
+    <path d="M -50 310.4 C 557.4321410925099 757.6, 1040.3757057692662 260.8, 1970 607.2" fill="none" stroke="url(#waveGrad2)" stroke-width="1.60" opacity="0.429" stroke-linecap="round" />
+    <path d="M -50 320 C 542.5678589074901 780, 1040.3757057692662 280, 1970 620" fill="none" stroke="url(#waveGrad2)" stroke-width="1.60" opacity="0.429" stroke-linecap="round" />
+    <path d="M -50 329.6 C 527.9063061573281 802.4, 1043.3659707466736 299.2, 1970 632.8" fill="none" stroke="url(#waveGrad2)" stroke-width="1.57" opacity="0.419" stroke-linecap="round" />
+    <path d="M -50 339.2 C 513.8474117812327 824.8, 1049.2649340679436 318.4, 1970 645.6" fill="none" stroke="url(#waveGrad2)" stroke-width="1.52" opacity="0.401" stroke-linecap="round" />
+    <path d="M -50 348.8 C 500.7746657689816 847.2, 1057.9116873911219 337.6, 1970 658.4" fill="none" stroke="url(#waveGrad2)" stroke-width="1.44" opacity="0.373" stroke-linecap="round" />
+    <path d="M -50 358.4 C 489.04465855368335 869.6, 1069.0703698259556 356.8, 1970 671.2" fill="none" stroke="url(#waveGrad2)" stroke-width="1.34" opacity="0.338" stroke-linecap="round" />
+    <path d="M -50 368 C 478.9773541543246 892, 1082.4366016041365 376, 1970 684" fill="none" stroke="url(#waveGrad2)" stroke-width="1.21" opacity="0.295" stroke-linecap="round" />
+    <path d="M -50 377.6 C 470.847362391416 914.4, 1097.645786765922 395.2, 1970 696.8" fill="none" stroke="url(#waveGrad2)" stroke-width="1.08" opacity="0.247" stroke-linecap="round" />
+    <path d="M -50 387.2 C 464.8764482469429 936.8, 1114.2830583874847 414.4, 1970 709.6" fill="none" stroke="url(#waveGrad2)" stroke-width="0.92" opacity="0.194" stroke-linecap="round" />
+    <path d="M -50 396.8 C 461.227482693755 959.2, 1131.8945950691193 433.6, 1970 722.4" fill="none" stroke="url(#waveGrad2)" stroke-width="0.76" opacity="0.138" stroke-linecap="round" />
+    <path d="M -50 406.4 C 460 981.6, 1150 452.79999999999995, 1970 735.2" fill="none" stroke="url(#waveGrad2)" stroke-width="0.60" opacity="0.080" stroke-linecap="round" />
+  </g>
+
+  <g id="main-ribbon">
+    <path d="M -100 367.2 C 480 -44, 860 471.2, 1480 120.80000000000001 T 2020 350.4" fill="none" stroke="url(#waveGrad1)" stroke-width="0.80" opacity="0.150" stroke-linecap="round" />
+    <path d="M -100 376.79999999999995 C 488.6095364113655 -26.241542360285656, 860.276258020042 485.62885528772534, 1488.9639308903434 135.20000000000002 T 2020 357.6" fill="none" stroke="url(#waveGrad2)" stroke-width="0.93" opacity="0.208" stroke-linecap="round" />
+    <path d="M -100 386.4 C 497.1746979853343 -8.964224684082218, 861.103941815973 500.115448416109, 1497.8556894798637 149.60000000000002 T 2020 364.8" fill="none" stroke="url(#waveGrad3)" stroke-width="1.05" opacity="0.266" stroke-linecap="round" />
+    <path d="M -100 396 C 505.65133859905376 7.837771641751196, 862.4797848979836 514.717052354666, 1506.6036845566675 164 T 2020 372" fill="none" stroke="url(#waveGrad1)" stroke-width="1.17" opacity="0.323" stroke-linecap="round" />
+    <path d="M -100 405.6 C 513.9957683799299 24.174092238384233, 864.3983574419917 529.4900140734925, 1515.1374824081342 178.4 T 2020 379.2" fill="none" stroke="url(#waveGrad2)" stroke-width="1.29" opacity="0.378" stroke-linecap="round" />
+    <path d="M -100 415.2 C 522.1649788897611 40.05813207414515, 866.8520877186785 544.4893008705953, 1523.3883739117557 192.8 T 2020 386.4" fill="none" stroke="url(#waveGrad3)" stroke-width="1.41" opacity="0.432" stroke-linecap="round" />
+    <path d="M -100 424.8 C 530.1168647966557 55.506927616111966, 869.8312919756448 559.7680578075275, 1531.2899277405907 207.20000000000002 T 2020 393.6" fill="none" stroke="url(#waveGrad1)" stroke-width="1.52" opacity="0.483" stroke-linecap="round" />
+    <path d="M -100 434.4 C 537.8104408922059 70.54101966249685, 873.3242126547573 575.3771798166022, 1538.7785252292474 221.6 T 2020 400.8" fill="none" stroke="url(#waveGrad2)" stroke-width="1.62" opacity="0.532" stroke-linecap="round" />
+    <path d="M -100 444 C 545.2060533353767 85.18428796021666, 877.3170647938591 591.364901924823, 1545.7938725939712 236 T 2020 408" fill="none" stroke="url(#waveGrad3)" stroke-width="1.72" opacity="0.578" stroke-linecap="round" />
+    <path d="M -100 453.6 C 552.2655840343299 99.46375893921189, 881.7940904297179 607.7764108938087, 1552.2794863827392 250.4 T 2020 415.2" fill="none" stroke="url(#waveGrad1)" stroke-width="1.81" opacity="0.620" stroke-linecap="round" />
+    <path d="M -100 463.2 C 558.9526471127655 113.40938811152401, 886.7376207875074 624.6534814025576, 1558.183148246803 264.8 T 2020 422.4" fill="none" stroke="url(#waveGrad2)" stroke-width="1.89" opacity="0.658" stroke-linecap="round" />
+    <path d="M -100 472.8 C 565.2327764481669 127.05381888712616, 892.1281460113895 642.0341397022958, 1563.4573253721303 279.2 T 2020 429.6" fill="none" stroke="url(#waveGrad3)" stroke-width="1.97" opacity="0.692" stroke-linecap="round" />
+    <path d="M -100 482.4 C 571.0736033153466 140.43211974837993, 897.9443921610024 659.9523574514609, 1568.0595531856738 293.6 T 2020 436.8" fill="none" stroke="url(#waveGrad1)" stroke-width="2.03" opacity="0.722" stroke-linecap="round" />
+    <path d="M -100 492 C 576.4450232196947 153.58150189923543, 904.1634051699835 678.437778195884, 1571.952777255145 308 T 2020 444" fill="none" stroke="url(#waveGrad2)" stroke-width="2.09" opacity="0.748" stroke-linecap="round" />
+    <path d="M -100 501.6 C 581.3193510602418 166.54101966249684, 910.7606414351834 697.5154786963877, 1575.1056516295153 322.4 T 2020 451.2" fill="none" stroke="url(#waveGrad3)" stroke-width="2.13" opacity="0.768" stroke-linecap="round" />
+    <path d="M -100 511.2 C 585.6714638228086 179.35125603737887, 917.7100646790537 717.2057670254542, 1577.4927912181824 336.8 T 2020 458.4" fill="none" stroke="url(#waveGrad1)" stroke-width="2.16" opacity="0.784" stroke-linecap="round" />
+    <path d="M -100 520.8 C 589.4789300677745 192.05399594905933, 924.9842487029405 737.5240190585652, 1579.0949761767934 351.2 T 2020 465.6" fill="none" stroke="url(#waveGrad2)" stroke-width="2.19" opacity="0.794" stroke-linecap="round" />
+    <path d="M -100 530.4 C 592.7221255450709 204.6918898210309, 932.5544856257599 758.4805546766949, 1579.8993066541316 365.6 T 2020 472.8" fill="none" stroke="url(#waveGrad3)" stroke-width="2.20" opacity="0.799" stroke-linecap="round" />
+    <path d="M -100 540 C 595.3843343404978 217.30811017896912, 940.3908991808898 780.0805546766949, 1579.8993066541316 380 T 2020 480" fill="none" stroke="url(#waveGrad1)" stroke-width="2.20" opacity="0.799" stroke-linecap="round" />
+    <path d="M -100 549.6 C 597.4518350320453 229.9460040509407, 948.462562624145 802.3240190585652, 1579.0949761767936 394.4 T 2020 487.2" fill="none" stroke="url(#waveGrad2)" stroke-width="2.19" opacity="0.794" stroke-linecap="round" />
+    <path d="M -100 559.2 C 598.9139714121521 242.64874396262115, 956.7376207875074 825.2057670254542, 1577.4927912181824 408.8 T 2020 494.4" fill="none" stroke="url(#waveGrad3)" stroke-width="2.16" opacity="0.784" stroke-linecap="round" />
+    <path d="M -100 568.8 C 599.7632074113926 255.45898033750316, 965.1834157969203 848.7154786963877, 1575.1056516295153 423.2 T 2020 501.6" fill="none" stroke="url(#waveGrad1)" stroke-width="2.13" opacity="0.768" stroke-linecap="round" />
+    <path d="M -100 578.4 C 599.9951659405045 268.41849810076457, 973.7666159579985 872.837778195884, 1571.952777255145 437.6 T 2020 508.8" fill="none" stroke="url(#waveGrad2)" stroke-width="2.09" opacity="0.748" stroke-linecap="round" />
+    <path d="M -100 588 C 599.6086514505618 281.56788025162007, 982.4533473009974 897.5523574514609, 1568.0595531856738 452 T 2020 516" fill="none" stroke="url(#waveGrad3)" stroke-width="2.03" opacity="0.722" stroke-linecap="round" />
+    <path d="M -100 597.6 C 598.6056560950117 294.94618111287383, 991.2093272658961 922.8341397022958, 1563.4573253721303 466.4 T 2020 523.2" fill="none" stroke="url(#waveGrad1)" stroke-width="1.97" opacity="0.692" stroke-linecap="round" />
+    <path d="M -100 607.2 C 596.9913494618188 308.590611888476, 1000 948.6534814025576, 1558.183148246803 480.8 T 2020 530.4" fill="none" stroke="url(#waveGrad2)" stroke-width="1.89" opacity="0.658" stroke-linecap="round" />
+    <path d="M -100 616.8 C 594.7740519286358 322.53624106078814, 1008.7906727341039 974.9764108938086, 1552.2794863827392 495.2 T 2020 537.6" fill="none" stroke="url(#waveGrad3)" stroke-width="1.81" opacity="0.620" stroke-linecap="round" />
+    <path d="M -100 626.4 C 591.9651917783333 336.81571203978336, 1017.5466526990026 1001.7649019248231, 1545.7938725939712 509.6 T 2020 544.8" fill="none" stroke="url(#waveGrad1)" stroke-width="1.72" opacity="0.578" stroke-linecap="round" />
+    <path d="M -100 636 C 588.5792462959223 351.45898033750314, 1026.2333840420015 1028.977179816602, 1538.7785252292474 524 T 2020 552" fill="none" stroke="url(#waveGrad2)" stroke-width="1.62" opacity="0.532" stroke-linecap="round" />
+    <path d="M -100 645.6 C 584.6336671504635 366.49307238388803, 1034.8165842030796 1056.5680578075273, 1531.2899277405907 538.4 T 2020 559.2" fill="none" stroke="url(#waveGrad3)" stroke-width="1.52" opacity="0.483" stroke-linecap="round" />
+    <path d="M -100 655.2 C 580.1487904465563 381.94186792585487, 1043.2623792124925 1084.4893008705953, 1523.388373911756 552.8 T 2020 566.4" fill="none" stroke="url(#waveGrad1)" stroke-width="1.41" opacity="0.432" stroke-linecap="round" />
+    <path d="M -100 664.8 C 575.147731909017 397.8259077616158, 1051.5374373758548 1112.6900140734924, 1515.1374824081342 567.2 T 2020 573.6" fill="none" stroke="url(#waveGrad2)" stroke-width="1.29" opacity="0.378" stroke-linecap="round" />
+    <path d="M -100 674.4 C 569.6562677409779 414.1622283582488, 1059.6091008191102 1141.1170523546662, 1506.6036845566675 581.6 T 2020 580.8" fill="none" stroke="url(#waveGrad3)" stroke-width="1.17" opacity="0.323" stroke-linecap="round" />
+    <path d="M -100 684 C 563.7027017694843 430.96422468408224, 1067.44551437424 1169.715448416109, 1497.8556894798637 596 T 2020 588" fill="none" stroke="url(#waveGrad1)" stroke-width="1.05" opacity="0.266" stroke-linecap="round" />
+    <path d="M -100 693.6 C 557.3177195633393 448.2415423602857, 1075.0157512970595 1198.4288552877251, 1488.9639308903434 610.4 T 2020 595.2" fill="none" stroke="url(#waveGrad2)" stroke-width="0.93" opacity="0.208" stroke-linecap="round" />
+    <path d="M -100 703.2 C 550.5342302750968 466, 1082.2899353209461 1227.2, 1480 624.8 T 2020 602.4" fill="none" stroke="url(#waveGrad3)" stroke-width="0.80" opacity="0.150" stroke-linecap="round" />
+  </g>
+</svg>
