@@ -128,45 +128,43 @@ export default function AuthPage() {
       </div>
 
       {/* Top Floating Glass Header */}
-      <header className="relative z-20 w-full px-6 py-5 lg:px-12">
-        <div className="mx-auto flex max-w-7xl items-center justify-between">
+      <header className="relative z-20 w-full max-w-full overflow-hidden safe-top border-b border-border/40 bg-background/70 backdrop-blur-md">
+        <div className="flex justify-between items-center w-full px-4 sm:px-6 lg:px-12 py-3.5 sm:py-5 max-w-7xl mx-auto">
           <Link
             href="/"
-            className="group flex items-center gap-3 transition-transform duration-300 hover:scale-105"
+            className="group flex items-center gap-2 sm:gap-3 transition-transform duration-300 hover:scale-105 shrink-0 min-w-0"
           >
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-aquamarine-400 to-celadon-300 text-emerald-950 font-bold shadow-lg shadow-aquamarine-400/20">
-              <Palmtree className="h-6 w-6 text-emerald-950" />
+            <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-aquamarine-400 to-celadon-300 text-emerald-950 font-bold shadow-lg shadow-aquamarine-400/20">
+              <Palmtree className="h-5 w-5 sm:h-6 sm:w-6 text-emerald-950" />
             </div>
-            <div>
-              <span className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
+            <div className="min-w-0 hidden xs:block">
+              <span className="flex items-center gap-1.5 sm:gap-2 text-sm sm:text-lg font-bold tracking-tight text-foreground">
                 Aura Ceylon
                 <Badge
                   variant="outline"
-                  className="border-aquamarine-500/40 bg-aquamarine-500/10 text-[10px] font-extrabold uppercase tracking-widest text-aquamarine-600 dark:text-aquamarine-300"
+                  className="border-aquamarine-500/40 bg-aquamarine-500/10 text-[9px] sm:text-[10px] font-extrabold uppercase tracking-widest text-aquamarine-600 dark:text-aquamarine-300 shrink-0"
                 >
                   Sanctuary
                 </Badge>
               </span>
-              <p className="text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+              <p className="text-[9px] sm:text-[10px] font-semibold uppercase tracking-widest text-muted-foreground truncate">
                 Luxury Villa &amp; Hotel Portal
               </p>
             </div>
           </Link>
 
-          <div className="flex items-center gap-3">
-
-            <Button
-              variant="outline"
-              size="sm"
-              asChild
-              className="rounded-xl border-border/80 bg-card/60 backdrop-blur-md text-xs font-medium hover:bg-muted"
-            >
-              <Link href="/">
-                <ArrowLeft className="mr-1.5 h-3.5 w-3.5" />
-                Back to Website
-              </Link>
-            </Button>
-          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            asChild
+            className="rounded-xl border-border/80 bg-card/60 backdrop-blur-md text-xs font-medium hover:bg-muted shrink-0 min-h-[40px] h-10 px-3"
+          >
+            <Link href="/">
+              <ArrowLeft className="mr-1.5 h-3.5 w-3.5 shrink-0" />
+              <span className="hidden xs:inline">Back to Website</span>
+              <span className="xs:hidden">Back</span>
+            </Link>
+          </Button>
         </div>
       </header>
 
@@ -491,14 +489,18 @@ export default function AuthPage() {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-20 py-4 text-center text-xs text-muted-foreground">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-6 sm:flex-row">
-          <p>&copy; {new Date().getFullYear()} Aura Ceylon Resorts &amp; Sanctuary Ltd. All rights reserved.</p>
-          <div className="flex items-center gap-4 text-[11px]">
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
-            <span>Guest Support</span>
+      <footer className="relative z-20 py-4 sm:py-6 text-center text-xs text-muted-foreground max-w-full overflow-hidden safe-bottom border-t border-border/40">
+        <div className="mx-auto max-w-7xl flex flex-col items-center justify-between space-y-4 px-4 sm:px-6">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-[11px] sm:text-xs">
+            <span className="leading-relaxed">Privacy Policy</span>
+            <span className="hidden sm:inline w-px h-3 bg-border"></span>
+            <span className="leading-relaxed">Terms of Service</span>
+            <span className="hidden sm:inline w-px h-3 bg-border"></span>
+            <span className="leading-relaxed">Guest Support</span>
           </div>
+          <p className="break-words hyphens-auto leading-relaxed px-2">
+            &copy; {new Date().getFullYear()} Aura Ceylon Resorts &amp; Sanctuary Ltd. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
