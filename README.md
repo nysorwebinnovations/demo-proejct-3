@@ -2,7 +2,7 @@
 
 A full-stack luxury hospitality booking management application powered by Next.js, React, TypeScript, and Supabase.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_App-06b6d4?style=for-the-badge)](https://demo-proejct-3.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_App-06b6d4?style=for-the-badge)](https://demo-proejct-3-nysor.vercel.app/)
 
 ---
 
